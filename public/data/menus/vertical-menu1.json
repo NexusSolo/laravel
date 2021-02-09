@@ -1,0 +1,185 @@
+{
+  "menu": [
+    {
+      "navheader": ""
+    },
+    {
+      "url": "dashboard",
+      "name": "Overview",
+      "slug": "dashboard",
+      "icon": "bx-home"
+    },
+    {
+      "url": "app/chat",
+      "name": "Active your account",
+      "slug": "app-chat",
+      "icon": "bx-edit"
+    },
+    {
+      "navheader": ""
+    },
+    {
+      "url": "payments",
+      "name": "Payments",
+      "slug": "payments.index",
+      "icon": "bxs-credit-card-alt",
+      "submenu": [
+        {
+          "url": "reviews",
+          "name": "Reviews",
+          "slug": "reviews.index",
+          "icon": "bx bx-right-arrow-alt"
+        },
+        {
+          "url": "disputes",
+          "name": "Disputes",
+          "slug": "disputes.index",
+          "icon": "bx bx-right-arrow-alt"
+        },
+        {
+          "url": "app/invoice/edit",
+          "name": "Top-ups",
+          "slug": "app-invoice-edit",
+          "icon": "bx bx-right-arrow-alt"
+        },
+        {
+          "url": "app/invoice/add",
+          "name": "Payouts",
+          "slug": "app-invoice-add",
+          "icon": "bx bx-right-arrow-alt"
+        },
+        {
+          "url": "app/invoice/add",
+          "name": "All transactions",
+          "slug": "app-invoice-add",
+          "icon": "bx bx-right-arrow-alt"
+        }
+      ]
+    },
+    {
+      "url": "app/calendar",
+      "name": "Balances",
+      "slug": "app-calendar",
+      "icon": "bx-sort"
+    },
+    {
+      "url": "customers",
+      "name": "Customers",
+      "slug": "customers.index",
+      "icon": "bxs-user-circle",
+      "submenu": [
+        {
+          "url": "app/invoice/list",
+          "name": "Subscriptions",
+          "slug": "app-invoice-list",
+          "icon": "bx bx-right-arrow-alt"
+        },
+        {
+          "url": "app/invoice/view",
+          "name": "Invoices",
+          "slug": "app-invoice-view",
+          "icon": "bx bx-right-arrow-alt"
+        }
+      ]
+    },
+    {
+      "url": "app/kanban",
+      "name": "Connected accounts",
+      "slug": "app-kanban",
+      "icon": "bx-group"
+    },
+    {
+      "url": "app/kanban",
+      "name": "Products",
+      "slug": "app-kanban",
+      "icon": "bxs-package",
+      "submenu": [
+        {
+          "url": "app/invoice/list",
+          "name": "Coupons",
+          "slug": "app-invoice-list",
+          "icon": "bx bx-right-arrow-alt"
+        },
+        {
+          "url": "app/invoice/view",
+          "name": "Tax rates",
+          "slug": "app-invoice-view",
+          "icon": "bx bx-right-arrow-alt"
+        }
+      ]
+    },
+    {
+      "url": "app/kanban",
+      "name": "Reports",
+      "slug": "app-kanban",
+      "icon": "bxs-report",
+      "submenu": [
+        {
+          "url": "app/invoice/list",
+          "name": "Billing",
+          "slug": "app-invoice-list",
+          "icon": "bx bx-right-arrow-alt"
+        },
+        {
+          "url": "app/invoice/view",
+          "name": "Radar",
+          "slug": "app-invoice-view",
+          "icon": "bx bx-right-arrow-alt"
+        },
+        {
+          "url": "app/invoice/view",
+          "name": "Sigma custom reports",
+          "slug": "app-invoice-view",
+          "icon": "bx bx-right-arrow-alt"
+        }
+      ]
+    },
+    {
+      "navheader": ""
+    },
+    {
+      "url": "app/kanban",
+      "name": "Developers",
+      "slug": "app-kanban",
+      "icon": "bxs-terminal",
+      "submenu": [
+        {
+          "url": "app/invoice/list",
+          "name": "API keys",
+          "slug": "app-invoice-list",
+          "icon": "bx bx-right-arrow-alt"
+        },
+        {
+          "url": "app/invoice/view",
+          "name": "Webhooks",
+          "slug": "app-invoice-view",
+          "icon": "bx bx-right-arrow-alt"
+        },
+        {
+          "url": "app/invoice/view",
+          "name": "Events",
+          "slug": "app-invoice-view",
+          "icon": "bx bx-right-arrow-alt"
+        },
+        {
+          "url": "app/invoice/view",
+          "name": "Logs",
+          "slug": "app-invoice-view",
+          "icon": "bx bx-right-arrow-alt"
+        }
+      ]
+    },
+    {
+      "url": "app/kanban",
+      "name": "Viewing test data",
+      "slug": "app-kanban",
+      "icon": "grid"
+    },
+    {
+      "url": "settings",
+      "name": "Settings",
+      "slug": "settings",
+      "icon": "bx-cog"
+    }
+  ]
+}

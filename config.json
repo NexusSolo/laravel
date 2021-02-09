@@ -1,0 +1,47 @@
+{
+  "html": "html",
+  "starter_kit": "starter-kit",
+  "documentation": "documentation",
+  "assets": "resources/assets",
+  "app_assets": "public/assets",
+  "assets_path": "../../../resources/assets",
+  "app_assets_path": "../../../public/assets",
+  "vendors_path": "./resources/vendors/",
+  "destination": {
+    "js": "./public/js",
+    "css": "./public/css",
+    "css_rtl": "./public/css-rtl"
+  },
+  "source": {
+    "path": "resources/assets",
+    "js": "resources/js",
+    "sass": "resources/sass",
+    "template": "resources/template-builder",
+    "documentation": "resources/documentation"
+  },
+  "vendors": {
+    "js": [
+      "jquery/jquery.min.js",
+      "popper/popper.min.js",
+      "bootstrap/bootstrap.min.js",
+      "perfectscrollbar/perfect-scrollbar.min.js",
+      "hammer/hammer.min.js",
+      "unison-js/unison-js.min.js",
+      "blockui/blockui.min.js",
+      "match-height/jquery.matchHeight-min.js",
+      "sliding-menu/jquery-slidingMenu.min.js",
+      "screenfull/screenfull.min.js",
+      "pace/pace.min.js",
+      "internationalization/i18n.min.js",
+      "internationalization/i18n-xhr.min.js",
+      "internationalization/lang-detector.min.js",
+      "internationalization/i18n-jquery.min.js"
+    ],
+    "css": [
+      "boxicons/css/boxicons.min.css",
+      "flag-icons/css/flag-icon.min.css",
+      "pace/pace.min.css",
+      "perfect-scrollbar/perfect-scrollbar.min.css"
+    ]
+  }
+ }
